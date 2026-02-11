@@ -1,0 +1,77 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6fb;
+  color: #1f2a44;
+}
+
+/* Genel kart hissi */
+.card {
+  background: #ffffff;
+  border: 1px solid #e6e8ef;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 6px 20px rgba(31, 42, 68, 0.06);
+}
+
+/* Başlıklar */
+h2, h3 {
+  color: #1f2a44;
+}
+
+/* Butonlar */
+button {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid #d9dcf0;
+  background: #ffffff;
+  color: #1f2a44;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  background: #f0f3ff;
+  border-color: #4f7cff;
+  color: #4f7cff;
+}
+
+/* Link gibi butonlar */
+a {
+  color: #2b5cff;
+  font-weight:500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Input */
+input[type="file"],
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d9dcf0;
+}
+
+/* Preview alanı – mavi arka plan, beyaz yazı */
+.preview-box {
+  background: linear-gradient(135deg, #4f7cff, #2b5cff);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-top: 10px;
+}
+
+/* Preview yazısı */
+.preview-text {
+  color: #ffffff;          /* BEYAZ YAZI */
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
