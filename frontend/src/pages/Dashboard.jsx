@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import api from "../api/axios";
-import CVUpload from "./CVUpload";
+import CVUpload from "./CvUpload";
 import JobList from "./JobList";
 
 export default function Dashboard() {
