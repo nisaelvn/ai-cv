@@ -121,6 +121,7 @@ export default function Dashboard() {
             <JobList selectedJobId={selectedJobId} onSelect={setSelectedJobId} />
           </div>
         </div>
+        
 
         {/* UPLOAD */}
         <div style={{ ...card, marginTop: 18 }}>
